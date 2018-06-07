@@ -13,7 +13,7 @@ On a Raspberry Pi 3, it will take around 75 minutes to build this image.
 Three volumes are used to store persistent data:
 * Database & Plugins (grafana-storage)
 * Configuration (grafana-etc)
-* Logs (grafana-logs)
+* Logs (grafana-log)
 
 ```sh
 docker volume create grafana-storage
